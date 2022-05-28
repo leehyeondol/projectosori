@@ -20,5 +20,7 @@ from osoriapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name='home')
+    path('',views.home,name='home'),
+    path('anonyboard.html', views.annonyboard,name='annoyboard'),
+    path('fashionboard.html', views.fashionboard,name='fashionboard'),
 ]
