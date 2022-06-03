@@ -23,4 +23,6 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('anonyboard.html', views.annonyboard,name='annoyboard'),
     path('fashionboard.html', views.fashionboard,name='fashionboard'),
+    path('postcreate', views.postcreate,name='postcreate'),
+    path('detail/<int:post_id>', views.detail,name='detail'),
 ]
