@@ -20,9 +20,5 @@ from outfit import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home, name='home'),
-    path('admin/',views.get_request, name='get_request'),
-    path('admin/',views.get_musinsa_images, name='get_musinsa_images'),
-    path('admin/',views.get_musinsa_links, name='get_musinsa_links'),
-    path('admin/',views.get_musinsa_data, name='get_musinsa_data')
-    
+  
 ]
